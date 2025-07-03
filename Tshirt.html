@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>T shirt designer</title>
+    <style>                        /*this section styles(font color,type,background color etc.)*/
+        body {
+        font-family: Arial, sans-serif;                   
+        text-align: center;
+        padding-top: 100px;
+        background-color: #a776b5;
+        }
+        </style>
+</head>
+<body>    
+  <h1>Welcome!"Design your own T shirt..!"</h1>
+  <canvas id="tshirt-canvas" width="400" height="500"></canvas>     
+
+  <div class="controls">                                             
+    <input type="color" id="colorPicker" />                          
+    <input type="text" id="textInput" placeholder="Add text" />      
+    <button onclick="addText()">Add Text</button>                   
+    <button onclick="download()">Save as Image</button>
+  </div>
+
+  <script src="Tshirtscript.js"></script>                   
+
+
+   </body>  
+</html> 
